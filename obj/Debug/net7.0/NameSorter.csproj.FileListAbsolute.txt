@@ -1,0 +1,14 @@
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/bin/Debug/net7.0/NameSorter
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/bin/Debug/net7.0/NameSorter.deps.json
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/bin/Debug/net7.0/NameSorter.runtimeconfig.json
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/bin/Debug/net7.0/NameSorter.dll
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/bin/Debug/net7.0/NameSorter.pdb
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/NameSorter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/NameSorter.AssemblyInfoInputs.cache
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/NameSorter.AssemblyInfo.cs
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/NameSorter.csproj.CoreCompileInputs.cache
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/NameSorter.dll
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/refint/NameSorter.dll
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/NameSorter.pdb
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/NameSorter.genruntimeconfig.cache
+/Users/tiksangchan/Documents/dnd_assesement/NameSorter/obj/Debug/net7.0/ref/NameSorter.dll

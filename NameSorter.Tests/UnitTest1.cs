@@ -1,21 +1,31 @@
-using System;
 using System.Collections.Generic;
 using Xunit;
 
-public class NameSorterTests
+namespace NameSorter.Tests
 {
-    [Fact]
-    public void SortNames_ShouldSortCorrectly()
+    public class NameSorterTests
     {
-        // Arrange
-        var names = new List<string> { "Janet Parsons", "Vaughn Lewis", "Adonis Julius Archer" };
-        
-        // Act
-        var sortedNames = Program.SortNames(names);
+        [Fact]
+        public void SortNames_ShouldReturnSortedNames()
+        {
+            var unsortedNames = new List<string>
+            {
+                "Janet Parsons",
+                "Vaughn Lewis",
+                "Adonis Julius Archer",
+            };
 
-        // Assert
-        Assert.Equal("Adonis Julius Archer", sortedNames[0]);
-        Assert.Equal("Vaughn Lewis", sortedNames[1]);
-        Assert.Equal("Janet Parsons", sortedNames[2]);
+            var expectedSortedNames = new List<string>
+            {
+                "Adonis Julius Archer",
+                "Vaughn Lewis",
+                "Janet Parsons"
+            };
+
+            var sortedNames = Program.SortNames(unsortedNames);
+
+            // Assertion
+            Assert.Equal(expectedSortedNames, sortedNames);
+        }
     }
 }

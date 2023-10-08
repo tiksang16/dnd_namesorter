@@ -5523,6 +5523,7 @@
       "NameSorter >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
+      "xunit.analyzers >= 1.0.0",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
   },
@@ -5580,6 +5581,10 @@
           "xunit": {
             "target": "Package",
             "version": "[2.4.2, )"
+          },
+          "xunit.analyzers": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "xunit.runner.visualstudio": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

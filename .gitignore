@@ -1,0 +1,5 @@
+bin/
+obj/
+out/
+publish/
+.DS_Store

@@ -21,6 +21,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <ProjectReference Include="..\NameSorter\NameSorter.csproj" />
+    <PackageReference Include="xunit.analyzers" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

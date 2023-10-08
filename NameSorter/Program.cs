@@ -45,16 +45,13 @@ public class Program
                 string[] parts1 = unsortedNames[j].Split(' ');
                 string[] parts2 = unsortedNames[j + 1].Split(' ');
 
-                // Compare last names first
                 int result = parts1[parts1.Length - 1].CompareTo(parts2[parts2.Length - 1]);
 
                 if (result == 0)
                 {
-                    // If last names are the same, compare given names
                     result = unsortedNames[j].CompareTo(unsortedNames[j + 1]);
                 }
 
-                // If the name on the left should come after the name on the right, swap them
                 if (result > 0)
                 {
                     var temp = unsortedNames[j];
